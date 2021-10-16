@@ -1,4 +1,4 @@
- #import <ARKit/ARKit.h>
+﻿ #import <ARKit/ARKit.h>
 
  extern "C" {
     typedef struct UnityXRNativeSessionPtr

@@ -1,10 +1,10 @@
-using System;
+ï»¿using System;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using System.Runtime.InteropServices;
 
 /// <summary>
-/// íœƒ{ƒ^ƒ“
+/// å‰Šé™¤ãƒœã‚¿ãƒ³
 /// </summary>
 public class DestroyButton : MonoBehaviour
 {
@@ -15,19 +15,19 @@ public class DestroyButton : MonoBehaviour
     [SerializeField] private float rayDistance = 100.0f;
 
     /// <summary>
-    /// íœƒ{ƒ^ƒ“
+    /// å‰Šé™¤ãƒœã‚¿ãƒ³
     /// </summary>
     public void OnButtonCallback()
     {
         if (session == null)
         {
-            Debug.LogError("ARSession‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ");
+            Debug.LogError("ARSessionãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“");
             return;
         }
 
         if (Camera.main == null)
         {
-            Debug.LogError("MainCamera‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ");
+            Debug.LogError("MainCameraãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“");
             return;
         }
 

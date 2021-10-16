@@ -1,8 +1,8 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 
 /// <summary>
-/// ARPlane•ÏXƒƒO•\¦
+/// ARPlaneå¤‰æ›´ãƒ­ã‚°è¡¨ç¤º
 /// </summary>
 public class ARPlaneLog : MonoBehaviour
 {
@@ -25,18 +25,18 @@ public class ARPlaneLog : MonoBehaviour
     }
 
     /// <summary>
-    /// ARPlane•ÏXŒŸ’m
+    /// ARPlaneå¤‰æ›´æ¤œçŸ¥
     /// </summary>
     private void OnPlanesChanged(ARPlanesChangedEventArgs args)
     {
-        // ARPlane’Ç‰ÁŒŸ’m
+        // ARPlaneè¿½åŠ æ¤œçŸ¥
         foreach (ARPlane plane in args.added)
         {
             string objectName = plane.gameObject.name;
             Debug.Log("[ARPlane added] " + plane.gameObject.name);
         }
 
-        // ARPlaneíœŒŸ’m
+        // ARPlaneå‰Šé™¤æ¤œçŸ¥
         foreach (ARPlane plane in args.removed)
         {
             string objectName = plane.gameObject.name;
