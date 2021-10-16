@@ -1,2 +1,2 @@
 # ARPlaneDestroy
-ARFoundationのARPlaneを削除するサンプルプロジェクト
+【Unity】ARFoundationのARPlaneを削除するサンプルプロジェクト
